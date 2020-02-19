@@ -1053,3 +1053,5 @@ def print_dot_tree(root, dotfilepath=None):
     if current_dot_tree != last_dot_tree:
         gr.write(dotfilepath)
         last_dot_tree = gr.string()
+
+    return current_dot_tree
